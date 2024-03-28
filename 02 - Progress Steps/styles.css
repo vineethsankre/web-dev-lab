@@ -38,7 +38,6 @@ body {
     width: 100%;
     transform: translateY(-50%);
     z-index: -1;
-
 }
 .progress{
     background-color: var(--line-border-fill);
@@ -85,6 +84,9 @@ body {
 }
 .btn:focus{
     outline: 0;
+}
+.btn:hover{
+    background-color: #308bc7;
 }
 .btn:disabled{
     background-color: var(--line-border-empty);
